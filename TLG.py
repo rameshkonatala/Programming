@@ -9,7 +9,6 @@ for i in range(t):
 	x.append(r)
 	
 
-print x
 p=max(x)
 q=min(x)
 
