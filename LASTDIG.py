@@ -8,7 +8,7 @@ for i in range(t):
 	for k in range(1,5):
 		if x[1]%4==0:
 			if x[1]==0:
-				print 0
+				print 1
 				break
 			else:	
 				print a[3]
