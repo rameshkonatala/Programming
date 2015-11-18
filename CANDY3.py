@@ -4,7 +4,7 @@ for i in range(p):
 	r=int(raw_input())
 	c=0
 	for j in range(r):
-		c=c+int(raw_input())
+		c=int(c+int(raw_input())%r)
 	if c%r==0:
 		print 'yes'
 	else:
