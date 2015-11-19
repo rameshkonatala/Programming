@@ -6,6 +6,6 @@ for i in range(p):
 	for j in range(r):
 		c=int(c+int(raw_input())%r)
 	if c%r==0:
-		print 'yes'
+		print 'YES'
 	else:
-		print 'no'
+		print 'NO'
