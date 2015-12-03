@@ -1,16 +1,16 @@
 t=int(raw_input())
 for i in range(t):
-	x=raw_input()
-	a,b=map(int,raw_input().split())
-	p=raw_input()
-	q=raw_input()
-	l=p[0]
-	m=q[0]
-	j=2
-	k=2
-	while j<a and k<b:
-		if p[j]>p[j-2]:
-			
+	raw_input()
+	raw_input()
+	p=map(int,raw_input().split())
+	q=map(int,raw_input().split())
+	pmax=max(p)
+	qmax=max(q)
+	if pmax<qmax:
+		print "MechaGodzilla"
+	else:
+		print "Godzilla"
+		
 		
 		
 		
