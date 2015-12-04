@@ -8,9 +8,9 @@ for i in range(t):
 		p.append(int(raw_input()))
 	
 	c=sorted(p)
-	print c
-	m=0
-	w=1
+	#print c
+	#m=0
+	#w=1
 	k=b-1
 	while w>0:
 		l=p.index(c[k])+1
