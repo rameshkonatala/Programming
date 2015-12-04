@@ -25,8 +25,8 @@ while p!=0:
 		
 
 	if t==0:
-		print "No"
+		print "no"
 	else:
-		print "Yes"
+		print "yes"
 
 	p=int(raw_input())	
