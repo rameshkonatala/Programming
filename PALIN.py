@@ -1,24 +1,37 @@
-def palin(a):
+def rev(alist):
+	b=[]
+	for i in range(len(alist)):
+		b.append(alist[len(alist)-1-i])
+	return b
 	
-	if len(a)<=1:
-		return True
-		
-	elif a[0]!=a[len(a)-1]:
-		return False
-		
-	else:
-		a.pop()
-		a.pop(0)
-		return palin(a) 
-		
 t=int(raw_input())
 for i in range(t):
-	p=int(raw_input())+1
-	t=1
-	while t!=0:
-		if palin([j for j in str(p)]):
-			print p
-			t=0
+	p=raw_input()
+	a=[ch for ch in p]
+	
+	n=len(a)
+	if len(a)==1:
+		if int(a[0])==9:
+			print 11
 		else:
+			print int(a[0])+1
+	else:
+		
+		if len(a)%2==0:
+			b=int("".join(a[:(n/2)]))+1
+			m=[]
+			for k in str(b):
+				m.append(k)
+			#print m
+			c=list(rev(m))
+			print ("".join(m+c))
+		else:
+			b=int("".join(a[:((n/2)+1)]))+1
+			m=[]
+			for k in str(b):
+				m.append(k)
+			#print m
+			c=list(rev(m))
 			
-			p=p+1
+			print ("".join(m+c[1:]))
+	

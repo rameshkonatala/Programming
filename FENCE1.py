@@ -1,6 +1,6 @@
 from math import pi
-l=int(raw_input())
+l=float(raw_input())
+
 while l!=0:
-	x=(l*l)/(6.2831853)
-	print round(x,2)
+	print '%.2f' %((l*l)/(2*pi))
 	l=int(raw_input())
