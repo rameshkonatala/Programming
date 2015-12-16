@@ -17,4 +17,4 @@ def binarySearch(alist, item):
 17	
 18	testlist = [0, 1, 2, 8, 13, 17, 19, 32, 42,]
 19	print(binarySearch(testlist, 3))
-20	print(binarySearch(testlist, 13))
+20	print(binarySearch(testlist, 13)) 
