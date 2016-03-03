@@ -1,0 +1,3 @@
+ - how to set up git and use "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx"
+ - git comands - https://docs.google.com/document/d/135UIMonCqU_6sdaWM1pkBA6c_39BH3Dx-rvxbv5052A/edit
+
